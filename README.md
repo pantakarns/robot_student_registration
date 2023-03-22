@@ -1,4 +1,4 @@
-## Robot Framework installation
+# Robot Framework installation
 
 # Windows
 1. Go to https://www.python.org/downloads/ download and install Python [Windows][Mac]
@@ -74,3 +74,31 @@ where python
 2. Go to View>Extensions and add Robot Framework Intellisense
 
 ![Screen Shot 2566-03-21 at 23 17 33](https://user-images.githubusercontent.com/102522906/226673853-afa42908-ab8d-4a9b-9710-f2c3e210b2f9.png)
+
+
+# Robot Framework Workshop
+## User Story
+### Requirement Description
+
+**As** a tutorial school would like to get student information for registration
+
+**I want**  to create a registration form
+
+**So** that a teacher can use the information to create the classroom
+
+### Acceptance criteria
+- All fields are required. If a field is blank, the system display message “This field is required.”
+- After click submit button show the message “Your registration has been completed”
+- Text: First name, Last name, Email
+- Integer: Student ID, Mobile Number
+
+____________________________________________________________________________________________________________
+### Assignment: 
+Create robot framework test scripts to verify the following user story. The test scripts can verify the website work correctly from the user story and also detect issues when the website is not following the user story.
+
+Web Stie: https://www.jotform.com/212934779973474
+
+____________________________________________________________________________________________________________
+
+
+Note: Cucumber Project https://github.com/pantakarns/cucumber_student_registration
