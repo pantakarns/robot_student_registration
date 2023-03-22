@@ -94,7 +94,7 @@ where python
 
 ____________________________________________________________________________________________________________
 ### Assignment: 
-Create robot framework test scripts to verify the following user story. The test scripts can verify the website work correctly from the user story and also detect issues when the website is not following the user story.
+Create robot framework test scripts to verify the following user story. The test scripts can verify the website work correctly from the user story(requirement) and should detect issues when the website not following the user story.
 
 Web Stie: https://www.jotform.com/212934779973474
 
