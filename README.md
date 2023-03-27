@@ -1,13 +1,23 @@
 # Robot Framework installation
 
 # Windows
-1. Go to https://www.python.org/downloads/ download and install Python [Windows][Mac]
-2. Recheck Python install success with command python –version or python -v [Windows][Mac]
-3. Install pip
+1. Go to https://www.python.org/downloads/windows/ download and install Python
+2. Click "Add python.exe to PATH"
+![01](https://user-images.githubusercontent.com/102522906/227930953-79fd8668-5998-4fbd-8816-e507c3459bf1.jpg)
+3. Go to Tis PC > Properties > Advanced system settings > Environment Variables
+4. Click PATH on User variables
+![06](https://user-images.githubusercontent.com/102522906/227931812-4fc34751-0d33-4fe2-bf61-49a049cf3847.jpg)
+5. Copy 2 variable Python\Pythonxx\Scripts and Python\Pythonxx
+6. Go to system variables and click PATH
+7. Add 2 variable that copied
+![02](https://user-images.githubusercontent.com/102522906/227932334-69a247a8-e519-48c1-b669-3df2270e3555.jpg)
+8. Recheck Python install success with command python –-version or python -v
 ```
-sudo easy_install pip3
+python --version
 ```
-4. Open a command and run the below command
+![03](https://user-images.githubusercontent.com/102522906/227933213-3938e9d8-0603-4739-97c7-520696289b4d.jpg)
+
+9. Open a command and run the below command
 ```
 pip3 install robotframework
 ```
@@ -15,27 +25,14 @@ recheck install success with
 ```
 robot --version
 ```
-5. Upgrade the pip with the below command
-```
-python -m pip3 install -U pip3
-```
-6. Install seleniumlibrary
+10. Install seleniumlibrary
 ```
 pip3 install robotframework-seleniumlibrary
 ```
-7. Configure Environment Variables After installing Python and pip, you should configure environment variables by adding the path
-
-- Go to System - > Advanced System Settings - > Advanced - > Environment Variables
-- In the System variable window, find the Path variable and click Edit
-
-<img width="428" alt="Screen Shot 2566-03-21 at 23 13 15" src="https://user-images.githubusercontent.com/102522906/226671168-e9ac8980-810b-4afc-bef6-3bcc2e38ba48.png">
-
-Position your cursor at the end of the Variable value line and add the path to the python.exe file, preceded with the semicolon character (;). In our example, we have added the following value: ;C:\Python34
-
-<img width="491" alt="Screen Shot 2566-03-21 at 23 13 26" src="https://user-images.githubusercontent.com/102522906/226671442-25136524-f2a6-4715-8897-73612df338d7.png">
+![05](https://user-images.githubusercontent.com/102522906/227933787-50e9b20d-1635-4bce-ae0a-0348f0e7e9bd.jpg)
 
 # Mac
-1. Go to https://www.python.org/downloads/ download and install Python [Windows][Mac]
+1. Go to https://www.python.org/downloads/macos/ download and install Python [Windows][Mac]
 2. Recheck Python install success with command python –version or python -v [Windows][Mac]
 3. Install pip
 ```
