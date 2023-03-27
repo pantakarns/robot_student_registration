@@ -71,7 +71,7 @@ where python
 # Install VSCode [Windows][Mac]
 
 1. Download and install VS code https://code.visualstudio.com/ [Windows][Mac]
-2. Go to View>Extensions and add Robot Framework Intellisense
+2. Go to View>Extensions and add "Robot Framework Language Server"
 
 ![Screen Shot 2566-03-21 at 23 17 33](https://user-images.githubusercontent.com/102522906/226673853-afa42908-ab8d-4a9b-9710-f2c3e210b2f9.png)
 
