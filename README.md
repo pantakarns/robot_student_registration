@@ -104,4 +104,6 @@ Robot Framework: https://robotframework.org/
 
 SeleniumLibrary: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Input%20Text
 
+BuiltInLibrary: https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
+
 Note: Cucumber Project https://github.com/pantakarns/cucumber_student_registration
