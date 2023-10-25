@@ -76,6 +76,15 @@ where python
 
 ![Screen Shot 2566-03-21 at 23 17 33](https://user-images.githubusercontent.com/102522906/226673853-afa42908-ab8d-4a9b-9710-f2c3e210b2f9.png)
 
+# Trying to run the program
+1. Open VS Code
+2. Download or clone source code
+![image](https://github.com/pantakarns/robot_student_registration/assets/102522906/c0b29a3d-f14c-4327-901a-b66ee7632b41)
+3. Open file testcases/master/simple_form1.robot
+4. Press the command "robot simple_form1.robot" in terminal
+![image](https://github.com/pantakarns/robot_student_registration/assets/102522906/c5faf014-debe-4789-ae68-13f27c12f5f6)
+
+Note: If you found the message "directory to execute does not exist" please press "ls" and ensure you are in the correct directory.
 
 # Robot Framework Workshop
 ## User Story
