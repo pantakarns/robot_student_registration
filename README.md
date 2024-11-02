@@ -29,11 +29,15 @@ robot --version
 ```
 pip3 install robotframework-seleniumlibrary
 ```
+11. Install requests library
+```
+pip3 install robotframework-requests
+```
 ![05](https://user-images.githubusercontent.com/102522906/227933787-50e9b20d-1635-4bce-ae0a-0348f0e7e9bd.jpg)
 
-11. Download ChromeDriver from https://chromedriver.chromium.org/downloads
+12. Download ChromeDriver from https://chromedriver.chromium.org/downloads
 
-12. Copy file (chromedriver) to Python path that installed (e.g. Programs\Python\Python310\Scripts)
+13. Copy file (chromedriver) to Python path that installed (e.g. Programs\Python\Python310\Scripts)
 
 # Mac
 1. Go to https://www.python.org/downloads/macos/ download and install Python [Windows][Mac]
