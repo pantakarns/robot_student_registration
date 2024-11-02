@@ -58,14 +58,18 @@ python -m pip3 install -U pip3
 ```
 pip3 install robotframework-seleniumlibrary
 ```
-7. Go to https://chromedriver.chromium.org/downloads for adding Chrome Driver
-8. Go to Terminal and input a command 
+7. Install requests library
+```
+pip3 install robotframework-requests
+```
+8. Go to https://chromedriver.chromium.org/downloads for adding Chrome Driver
+9. Go to Terminal and input a command 
 ```
 where python
 ```
 - or click folder Go>Go to folder>/usr/local/bin
 
-9. Go to Python folder and copy chromedriver file into the folder
+10. Go to Python folder and copy chromedriver file into the folder
 <img width="615" alt="Screen Shot 2566-03-21 at 23 26 34" src="https://user-images.githubusercontent.com/102522906/226675737-ccf77b0e-ea4b-423d-be83-fdf558c61c92.png">
 
 
