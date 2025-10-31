@@ -94,27 +94,22 @@ where python
 
 Note: If you found the message "directory to execute does not exist" please press "ls" and ensure you are in the correct directory.
 
+____________________________________________________________________________________________________________
 # Robot Framework Workshop
 ## User Story
 ### Requirement Description
 
-**As** a tutorial school would like to get student information for registration
-
-**I want**  to create a registration form
-
-**So** that a teacher can use the information to create the classroom
+As the hotel would like to get booking information
+I want  to create a hotel booking form
+So that hotel staff can use the information to create the booking
 
 ### Acceptance criteria
-- All fields are required. If a field is blank, the system display message “This field is required.”
-- After click submit button show the message “Your registration has been completed”
-- Text: First name, Last name, Email
-- Integer: Student ID, Mobile Number
+All fields are required. If a field is blank, the system display message “This field is required.”
+After click submit button show the message “Thanks for submitting!”
+Text: First name, Last name, Email
+Integer: Student ID, Mobile Number
 
-____________________________________________________________________________________________________________
-### Assignment: 
-Create robot framework test scripts to verify the following user story. The test scripts can verify the website work correctly from the user story(requirement) and should detect issues when the website not following the user story.
-
-Web Stie: https://www.jotform.com/212934779973474
+https://panaryco.wixsite.com/myhotel?utm_source=chatgpt.com
 
 ____________________________________________________________________________________________________________
 Robot Framework: https://robotframework.org/
@@ -126,3 +121,4 @@ SeleniumLibrary: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 BuiltInLibrary: https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
 
 Note: Cucumber Project https://github.com/pantakarns/cucumber_student_registration
+
