@@ -104,10 +104,10 @@ I want  to create a hotel booking form
 So that hotel staff can use the information to create the booking
 
 ### Acceptance criteria
-All fields are required. If a field is blank, the system display message “This field is required.”
-After click submit button show the message “Thanks for submitting!”
-Text: First name, Last name, Email
-Integer: Student ID, Mobile Number
+- All fields are required. If a field is blank, the system display message “This field is required.”
+- After click submit button show the message “Thanks for submitting!”
+- Text: First name, Last name, Email
+- Integer: Student ID, Mobile Number
 
 https://panaryco.wixsite.com/myhotel?utm_source=chatgpt.com
 
@@ -121,4 +121,5 @@ SeleniumLibrary: https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 BuiltInLibrary: https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
 
 Note: Cucumber Project https://github.com/pantakarns/cucumber_student_registration
+
 
